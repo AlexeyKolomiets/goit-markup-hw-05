@@ -30,6 +30,8 @@
   --icon-close-color: rgba(0, 0, 0, 1);
 
   --icon-close-border-color: rgba(0, 0, 0, 0.1);
+
+  --backdrop-background: rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -687,7 +689,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--backdrop-background);
 }
 
 .backdrop.is-hidden {
